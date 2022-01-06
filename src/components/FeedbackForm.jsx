@@ -49,7 +49,7 @@ function FeedbackForm({handleAdd}) {
             value={reviewText}
           />
           <Button type='submit' isDisabled={isSubmitButtonDisabled}>
-            tasty clam
+            Submit
           </Button>
         </div>
         {message && <div className='message'>{message}</div>}
